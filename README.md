@@ -1,1 +1,2 @@
 # Cloud Shell Editor gets your first cloud-native app running in minutes
+Google Cloud Shell is an online bash shell based on Debian. Cloud Shell is an online development and operations environment accessible anywhere with your browser. You can manage your resources with its online terminal preloaded with utilities such as the gcloud command-line tool, kubectl, and more. You can also develop, build, debug, and deploy your cloud-based apps using the online Cloud Shell Editor.
