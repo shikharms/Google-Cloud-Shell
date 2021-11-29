@@ -1,0 +1,23 @@
+gcloud config set compute/zone us-east1-b
+
+gcloud beta container clusters create orca-test-cluster \
+
+   --zone us-east1-b \
+
+   --network Name-build-vpc \
+
+   --subnetwork Name-build-subnet \
+
+   --service-account Name-private-cluster-sa@projectname.iam.gserviceaccount.com \
+
+   --enable-master-authorized-networks \
+
+   --master-authorized-networks 192.x.x.x/32 \
+
+   --enable-private-nodes \
+
+  --master-ipv4-cidr 10.x.x.x/28 \
+
+   --enable-ip-alias \
+
+   --enable-private-endpoint
